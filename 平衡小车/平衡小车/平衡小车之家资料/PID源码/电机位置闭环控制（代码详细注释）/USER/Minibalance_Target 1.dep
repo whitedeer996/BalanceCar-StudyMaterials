@@ -1,0 +1,193 @@
+Dependencies for Project 'Minibalance', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_stm32f10x_md.s)(0x532BB228)(--cpu Cortex-M3 -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include--list ..\obj\startup_stm32f10x_md.lst --xref -o ..\obj\startup_stm32f10x_md.o --depend ..\obj\startup_stm32f10x_md.d)
+F (.\Minibalance.c)(0x567F9FDE)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\TIMER -I..\HARDWARE\MOTOR -I..\BALANCE\CONTROL -I..\HARDWARE\ENCODER -I..\BALANCE\CONTROL -I..\BALANCE\controls-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-DSTM32F10X_MD -DSTM32F10X_MD -o ..\obj\minibalance.o --omf_browse ..\obj\minibalance.crf --depend ..\obj\minibalance.d)
+I (..\SYSTEM\sys\sys.h)(0x56302848)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm3.h)(0x512C1E62)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\delay\delay.h)(0x5584D9A5)
+I (..\HARDWARE\LED\led.h)(0x567F9FDE)
+I (..\HARDWARE\KEY\key.h)(0x55862969)
+I (..\SYSTEM\usart\usart.h)(0x5584D9A5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (..\HARDWARE\TIMER\timer.h)(0x567F9FDE)
+I (..\HARDWARE\MOTOR\motor.h)(0x567F9FDE)
+I (..\HARDWARE\ENCODER\encoder.h)(0x5630490F)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x52FDD27E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x52FDD27E)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x52FDD27E)
+F (..\SYSTEM\delay\delay.c)(0x5584D9A5)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\TIMER -I..\HARDWARE\MOTOR -I..\BALANCE\CONTROL -I..\HARDWARE\ENCODER -I..\BALANCE\CONTROL -I..\BALANCE\controls-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-DSTM32F10X_MD -DSTM32F10X_MD -o ..\obj\delay.o --omf_browse ..\obj\delay.crf --depend ..\obj\delay.d)
+I (..\SYSTEM\delay\delay.h)(0x5584D9A5)
+I (..\SYSTEM\sys\sys.h)(0x56302848)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm3.h)(0x512C1E62)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\HARDWARE\LED\led.h)(0x567F9FDE)
+I (..\HARDWARE\KEY\key.h)(0x55862969)
+I (..\SYSTEM\usart\usart.h)(0x5584D9A5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (..\HARDWARE\TIMER\timer.h)(0x567F9FDE)
+I (..\HARDWARE\MOTOR\motor.h)(0x567F9FDE)
+I (..\HARDWARE\ENCODER\encoder.h)(0x5630490F)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x52FDD27E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x52FDD27E)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x52FDD27E)
+F (..\SYSTEM\sys\sys.c)(0x5584D9A5)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\TIMER -I..\HARDWARE\MOTOR -I..\BALANCE\CONTROL -I..\HARDWARE\ENCODER -I..\BALANCE\CONTROL -I..\BALANCE\controls-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-DSTM32F10X_MD -DSTM32F10X_MD -o ..\obj\sys.o --omf_browse ..\obj\sys.crf --depend ..\obj\sys.d)
+I (..\SYSTEM\sys\sys.h)(0x56302848)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm3.h)(0x512C1E62)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\delay\delay.h)(0x5584D9A5)
+I (..\HARDWARE\LED\led.h)(0x567F9FDE)
+I (..\HARDWARE\KEY\key.h)(0x55862969)
+I (..\SYSTEM\usart\usart.h)(0x5584D9A5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (..\HARDWARE\TIMER\timer.h)(0x567F9FDE)
+I (..\HARDWARE\MOTOR\motor.h)(0x567F9FDE)
+I (..\HARDWARE\ENCODER\encoder.h)(0x5630490F)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x52FDD27E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x52FDD27E)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x52FDD27E)
+F (..\SYSTEM\usart\usart.c)(0x56302C62)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\TIMER -I..\HARDWARE\MOTOR -I..\BALANCE\CONTROL -I..\HARDWARE\ENCODER -I..\BALANCE\CONTROL -I..\BALANCE\controls-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-DSTM32F10X_MD -DSTM32F10X_MD -o ..\obj\usart.o --omf_browse ..\obj\usart.crf --depend ..\obj\usart.d)
+I (..\SYSTEM\usart\usart.h)(0x5584D9A5)
+I (..\SYSTEM\sys\sys.h)(0x56302848)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm3.h)(0x512C1E62)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\delay\delay.h)(0x5584D9A5)
+I (..\HARDWARE\LED\led.h)(0x567F9FDE)
+I (..\HARDWARE\KEY\key.h)(0x55862969)
+I (..\HARDWARE\TIMER\timer.h)(0x567F9FDE)
+I (..\HARDWARE\MOTOR\motor.h)(0x567F9FDE)
+I (..\HARDWARE\ENCODER\encoder.h)(0x5630490F)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x52FDD27E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x52FDD27E)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x52FDD27E)
+F (..\HARDWARE\LED\LED.C)(0x567F9FDE)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\TIMER -I..\HARDWARE\MOTOR -I..\BALANCE\CONTROL -I..\HARDWARE\ENCODER -I..\BALANCE\CONTROL -I..\BALANCE\controls-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-DSTM32F10X_MD -DSTM32F10X_MD -o ..\obj\led.o --omf_browse ..\obj\led.crf --depend ..\obj\led.d)
+I (..\HARDWARE\LED\led.h)(0x567F9FDE)
+I (..\SYSTEM\sys\sys.h)(0x56302848)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm3.h)(0x512C1E62)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\delay\delay.h)(0x5584D9A5)
+I (..\HARDWARE\KEY\key.h)(0x55862969)
+I (..\SYSTEM\usart\usart.h)(0x5584D9A5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (..\HARDWARE\TIMER\timer.h)(0x567F9FDE)
+I (..\HARDWARE\MOTOR\motor.h)(0x567F9FDE)
+I (..\HARDWARE\ENCODER\encoder.h)(0x5630490F)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x52FDD27E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x52FDD27E)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x52FDD27E)
+F (..\HARDWARE\KEY\key.c)(0x5586419D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\TIMER -I..\HARDWARE\MOTOR -I..\BALANCE\CONTROL -I..\HARDWARE\ENCODER -I..\BALANCE\CONTROL -I..\BALANCE\controls-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-DSTM32F10X_MD -DSTM32F10X_MD -o ..\obj\key.o --omf_browse ..\obj\key.crf --depend ..\obj\key.d)
+I (..\HARDWARE\KEY\key.h)(0x55862969)
+I (..\SYSTEM\sys\sys.h)(0x56302848)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm3.h)(0x512C1E62)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\delay\delay.h)(0x5584D9A5)
+I (..\HARDWARE\LED\led.h)(0x567F9FDE)
+I (..\SYSTEM\usart\usart.h)(0x5584D9A5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (..\HARDWARE\TIMER\timer.h)(0x567F9FDE)
+I (..\HARDWARE\MOTOR\motor.h)(0x567F9FDE)
+I (..\HARDWARE\ENCODER\encoder.h)(0x5630490F)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x52FDD27E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x52FDD27E)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x52FDD27E)
+F (..\HARDWARE\TIMER\timer.c)(0x567F9FDE)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\TIMER -I..\HARDWARE\MOTOR -I..\BALANCE\CONTROL -I..\HARDWARE\ENCODER -I..\BALANCE\CONTROL -I..\BALANCE\controls-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-DSTM32F10X_MD -DSTM32F10X_MD -o ..\obj\timer.o --omf_browse ..\obj\timer.crf --depend ..\obj\timer.d)
+I (..\HARDWARE\TIMER\timer.h)(0x567F9FDE)
+I (..\SYSTEM\sys\sys.h)(0x56302848)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm3.h)(0x512C1E62)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\delay\delay.h)(0x5584D9A5)
+I (..\HARDWARE\LED\led.h)(0x567F9FDE)
+I (..\HARDWARE\KEY\key.h)(0x55862969)
+I (..\SYSTEM\usart\usart.h)(0x5584D9A5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (..\HARDWARE\MOTOR\motor.h)(0x567F9FDE)
+I (..\HARDWARE\ENCODER\encoder.h)(0x5630490F)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x52FDD27E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x52FDD27E)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x52FDD27E)
+F (..\HARDWARE\MOTOR\motor.c)(0x567F9FDE)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\TIMER -I..\HARDWARE\MOTOR -I..\BALANCE\CONTROL -I..\HARDWARE\ENCODER -I..\BALANCE\CONTROL -I..\BALANCE\controls-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-DSTM32F10X_MD -DSTM32F10X_MD -o ..\obj\motor.o --omf_browse ..\obj\motor.crf --depend ..\obj\motor.d)
+I (..\HARDWARE\MOTOR\motor.h)(0x567F9FDE)
+I (..\SYSTEM\sys\sys.h)(0x56302848)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm3.h)(0x512C1E62)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\delay\delay.h)(0x5584D9A5)
+I (..\HARDWARE\LED\led.h)(0x567F9FDE)
+I (..\HARDWARE\KEY\key.h)(0x55862969)
+I (..\SYSTEM\usart\usart.h)(0x5584D9A5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (..\HARDWARE\TIMER\timer.h)(0x567F9FDE)
+I (..\HARDWARE\ENCODER\encoder.h)(0x5630490F)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x52FDD27E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x52FDD27E)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x52FDD27E)
+F (..\HARDWARE\ENCODER\encoder.c)(0x5630490F)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\TIMER -I..\HARDWARE\MOTOR -I..\BALANCE\CONTROL -I..\HARDWARE\ENCODER -I..\BALANCE\CONTROL -I..\BALANCE\controls-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-DSTM32F10X_MD -DSTM32F10X_MD -o ..\obj\encoder.o --omf_browse ..\obj\encoder.crf --depend ..\obj\encoder.d)
+I (..\HARDWARE\ENCODER\encoder.h)(0x5630490F)
+I (..\SYSTEM\sys\sys.h)(0x56302848)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm3.h)(0x512C1E62)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\delay\delay.h)(0x5584D9A5)
+I (..\HARDWARE\LED\led.h)(0x567F9FDE)
+I (..\HARDWARE\KEY\key.h)(0x55862969)
+I (..\SYSTEM\usart\usart.h)(0x5584D9A5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (..\HARDWARE\TIMER\timer.h)(0x567F9FDE)
+I (..\HARDWARE\MOTOR\motor.h)(0x567F9FDE)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x52FDD27E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x52FDD27E)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x52FDD27E)
+F (..\BALANCE\CONTROL\control.c)(0x574E5CA2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\TIMER -I..\HARDWARE\MOTOR -I..\BALANCE\CONTROL -I..\HARDWARE\ENCODER -I..\BALANCE\CONTROL -I..\BALANCE\controls-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-DSTM32F10X_MD -DSTM32F10X_MD -o ..\obj\control.o --omf_browse ..\obj\control.crf --depend ..\obj\control.d)
+I (..\BALANCE\CONTROL\control.h)(0x574E5C52)
+I (..\SYSTEM\sys\sys.h)(0x56302848)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm3.h)(0x512C1E62)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\delay\delay.h)(0x5584D9A5)
+I (..\HARDWARE\LED\led.h)(0x567F9FDE)
+I (..\HARDWARE\KEY\key.h)(0x55862969)
+I (..\SYSTEM\usart\usart.h)(0x5584D9A5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (..\HARDWARE\TIMER\timer.h)(0x567F9FDE)
+I (..\HARDWARE\MOTOR\motor.h)(0x567F9FDE)
+I (..\HARDWARE\ENCODER\encoder.h)(0x5630490F)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x52FDD27E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x52FDD27E)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x52FDD27E)
